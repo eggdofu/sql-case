@@ -31,13 +31,13 @@ SELECT
     -- 前期または後期で成績オール5が取れた場合に表示
     CASE WHEN `all5_num` IS NOT NULL
         THEN CASE `all5_num` 
-            WHEN 1 THEN CONCAT('9教科', 
+            WHEN 1 THEN CONCAT('5教科', 
                 CASE `subject_`
                     WHEN 1 THEN '前期'
                     WHEN 2 THEN '後期'
                 END,
                 'オール5')
-            WHEN 2 THEN CONCAT('5教科', 
+            WHEN 2 THEN CONCAT('3教科', 
                 CASE `topics_select5`
                     WHEN 1 THEN '前期'
                     WHEN 2 THEN '後期'

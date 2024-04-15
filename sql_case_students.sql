@@ -32,13 +32,13 @@ SELECT
     CASE WHEN `all5_num` IS NOT NULL
         THEN CASE `all5_num` 
             WHEN 1 THEN CONCAT('5教科', 
-                CASE `subject_`
+                CASE `all5_period`
                     WHEN 1 THEN '前期'
                     WHEN 2 THEN '後期'
                 END,
                 'オール5')
             WHEN 2 THEN CONCAT('3教科', 
-                CASE `topics_select5`
+                CASE `all5_period`
                     WHEN 1 THEN '前期'
                     WHEN 2 THEN '後期'
                 END,

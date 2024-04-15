@@ -22,4 +22,4 @@ CASE文を使用し、SQLの段階でなるべく表としての体裁を整え�
 <br>
 <br>
 <br>
-[https://kinabal.co.jp/info/info-16852/](https://kinabal.co.jp/info/info-16852/)
+[https://kinabal.co.jp/info/info-18337/)
